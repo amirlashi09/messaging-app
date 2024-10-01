@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>پیام‌رسان مینی‌مال</title>
+</head>
+<body>
+    <div class="container" id="welcome-container">
+        <h1>خوش آمدید!</h1>
+        <input type="text" id="name-input" placeholder="نام خود را وارد کنید..." />
+        <button id="start-button">شروع</button>
+    </div>
+
+    <div class="container" id="chat-container" style="display: none;">
+        <h1>پیام‌رسان</h1>
+        <div class="chat-box" id="chat-box">
+            <!-- پیام‌ها در اینجا نمایش داده می‌شوند -->
+        </div>
+        <input type="text" id="message-input" placeholder="پیام خود را وارد کنید...">
+        <button id="send-button">ارسال</button>
+        <button id="call-button">تماس</button>
+        <button id="hangup-button" disabled>پایان تماس</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
